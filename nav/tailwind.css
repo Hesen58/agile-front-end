@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    body {
+        @apply m-0 p-0 bg-black;
+    }
+    .nav-icon {
+        @apply text-black opacity-20 text-[20px];
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        src: url(./fonts/poppins-regular-webfont.woff2) format('woff2');
+    }
+}
