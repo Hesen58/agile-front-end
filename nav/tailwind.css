@@ -9,12 +9,6 @@
   .nav-icon {
     @apply text-black opacity-20 text-[20px];
   }
-  .profiles {
-    position: relative;
-  }
-  .profiles img {
-    position: relative;
-  }
 }
 
 @layer base {

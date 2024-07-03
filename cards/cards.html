@@ -7,7 +7,7 @@
         <title>Page</title>
     </head>
     <body>
-        <nav class="h-[58px] bg-white flex items-center justify-between border">
+        <nav class="h-[58px] bg-white flex items-center justify-between border-b">
             <div class="nav-left flex items-center">
                 <span class="logo ml-[30px]">Zaman</span>
                 <!--Vertical line-->
@@ -68,7 +68,7 @@
             let i = 0;
             children.forEach((element) => {
                 console.log(element);
-                element.style.right = `${i * 10}px`;
+                element.style.right = `${i * 20}px`;
                 element.style.zIndex = `${i + 1}px`;
                 i++;
             });
