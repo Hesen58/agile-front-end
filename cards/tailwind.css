@@ -4,7 +4,7 @@
 
 @layer utilities {
   body {
-    @apply m-0 p-0 bg-white;
+    @apply m-0 p-0 bg-white font-poppins;
   }
   .nav-icon {
     @apply text-black opacity-20 text-[20px];

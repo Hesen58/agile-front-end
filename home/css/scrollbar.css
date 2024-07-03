@@ -1,0 +1,11 @@
+.boards::-webkit-scrollbar{
+    height: 14px;
+}
+.boards::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.boards::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}

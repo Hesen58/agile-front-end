@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/out.css" />
+        <link rel="stylesheet" href="css/scrollbar.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <nav class="h-[58px] flex items-center justify-between border-b">
+            <div class="nav-left flex items-center">
+                <span class="logo ml-[30px]">Zaman</span>
+                <!--Vertical line-->
+                <span class="h-[32px] w-px opacity-10 bg-black mx-[20px]"></span>
+                <!--Vertical line-->
+                <div class="boards flex">
+                    <span><img class="w-[24px] h-[24px]" src="img/trello-mark-blue.png" alt="" /></span>
+                    <span class="ml-[5px]">Boards</span>
+                </div>
+                <!--Vertical line-->
+                <span class="h-[32px] w-px opacity-10 bg-black mx-[20px]"></span>
+                <!--Vertical line-->
+                <div class="search h-[30px] w-[512px] bg-boz rounded-full flex justify-between items-center hidden lg:flex">
+                    <input class="bg-inherit outline-none ml-[20px] w-4/5" type="text" />
+                    <span class="mr-[20px]"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+            </div>
+            <div class="nav-right flex">
+                <div class="nav-icons hidden items-center sm:flex">
+                    <span class="nav-icon"><i class="fa-solid fa-circle-plus"></i></span>
+                    <span class="nav-icon mx-[50px]"><i class="fa-solid fa-circle-exclamation"></i></span>
+                    <span class="nav-icon"><i class="fa-solid fa-bell"></i></span>
+                </div>
+                <span class="profile-photo mx-[30px]"><img class="w-[40px] h-[40px] border rounded-full" src="img/huseyn.jpeg" alt="" /></span>
+            </div>
+        </nav>
+
+        <section class="subnav mt-[30px] flex items-center justify-between">
+            <div class="subnav-left flex items-center ml-[30px]">
+                <span class="text-2xl font-medium">Recently viewed</span>
+            </div>
+            <div class="subnav-right flex items-center mx-[30px]">
+                <span class="text-lg">Menu</span>
+            </div>
+        </section>
+
+        <section class="boards mt-[15px] pb-[20px] mx-[30px] flex whitespace-nowrap overflow-x-auto">
+            <div class="board bg-boz">
+                <div class="board-top flex flex-col">
+                    <span class="text-base">Brackets</span>
+                    <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Saving money – is something we would all like.</span>
+                </div>
+                <div class="board-bottom mt-[25px] flex justify-between items-end">
+                    <div class="profiles-sm flex">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                    </div>
+                    <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                </div>
+            </div>
+            <div class="board bg-goyumtul ml-[30px]">
+                <div class="board-top flex flex-col">
+                    <span class="text-base">Pictures In The Sky</span>
+                    <span class="text-[13px] leading-[19px] opacity-40 text-wrap">In the last five to six years the FTA satellite receiver has become an everyday household electronic device.</span>
+                </div>
+                <div class="board-bottom mt-[25px] flex justify-between items-end">
+                    <div class="profiles-sm flex">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                    </div>
+                    <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                </div>
+            </div>
+            <div class="board bg-cehrayimtil ml-[30px]">
+                <div class="board-top flex flex-col">
+                    <span class="text-base">How To Look Up</span>
+                    <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Color is so powerful that it can persuade, motivate.</span>
+                </div>
+                <div class="board-bottom mt-[25px] flex justify-between items-end">
+                    <div class="profiles-sm flex">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                    </div>
+                    <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                </div>
+            </div>
+            <div class="board bg-boz ml-[30px]">
+                <div class="board-top flex flex-col">
+                    <span class="text-base">Brackets</span>
+                    <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Saving money – is something we would all like.</span>
+                </div>
+                <div class="board-bottom mt-[25px] flex justify-between items-end">
+                    <div class="profiles-sm flex">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                    </div>
+                    <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                </div>
+            </div>
+            <div class="board bg-goyumtul ml-[30px]">
+                <div class="board-top flex flex-col">
+                    <span class="text-base">Pictures In The Sky</span>
+                    <span class="text-[13px] leading-[19px] opacity-40 text-wrap">In the last five to six years the FTA satellite receiver has become an everyday household electronic device.</span>
+                </div>
+                <div class="board-bottom mt-[25px] flex justify-between items-end">
+                    <div class="profiles-sm flex">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                    </div>
+                    <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                </div>
+            </div>
+            <div class="board bg-cehrayimtil ml-[30px]">
+                <div class="board-top flex flex-col">
+                    <span class="text-base">How To Look Up</span>
+                    <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Color is so powerful that it can persuade, motivate.</span>
+                </div>
+                <div class="board-bottom mt-[25px] flex justify-between items-end">
+                    <div class="profiles-sm flex">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                        <img src="./img/huseyn.jpeg" class="image-sm">
+                    </div>
+                    <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="content mt-[60px] mx-[30px]">
+            <div class="heading">
+                <span class="text-2xl font-medium">New</span>
+            </div>
+            <div class="boards mt-[15px] pb-[20px] flex whitespace-nowrap overflow-x-auto">
+                <div class="board bg-boz">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">Brackets</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Saving money – is something we would all like.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+                <div class="board bg-goyumtul ml-[30px]">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">Pictures In The Sky</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">In the last five to six years the FTA satellite receiver has become an everyday household electronic device.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+                <div class="board bg-cehrayimtil ml-[30px]">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">How To Look Up</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Color is so powerful that it can persuade, motivate.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+                <div class="board bg-boz ml-[30px]">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">Brackets</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Saving money – is something we would all like.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+                <div class="board bg-goyumtul ml-[30px]">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">Pictures In The Sky</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">In the last five to six years the FTA satellite receiver has become an everyday household electronic device.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+                <div class="board bg-cehrayimtil ml-[30px]">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">How To Look Up</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Color is so powerful that it can persuade, motivate.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content mt-[60px] mx-[30px]">
+            <div class="heading">
+                <span class="text-2xl font-medium">Process</span>
+            </div>
+            <div class="boards mt-[15px] pb-[20px] flex whitespace-nowrap overflow-x-auto">
+                <div class="board bg-boz">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">Brackets</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Saving money – is something we would all like.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+                <div class="board bg-goyumtul ml-[30px]">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">Pictures In The Sky</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">In the last five to six years the FTA satellite receiver has become an everyday household electronic device.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+                <div class="board bg-cehrayimtil ml-[30px]">
+                    <div class="board-top flex flex-col">
+                        <span class="text-base">How To Look Up</span>
+                        <span class="text-[13px] leading-[19px] opacity-40 text-wrap">Color is so powerful that it can persuade, motivate.</span>
+                    </div>
+                    <div class="board-bottom mt-[25px] flex justify-between items-end">
+                        <div class="profiles-sm flex">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                            <img src="./img/huseyn.jpeg" class="image-sm">
+                        </div>
+                        <span class="opacity-20"><i class="fa-solid fa-arrow-right fa-lg"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://kit.fontawesome.com/b483b8c1ee.js" crossorigin="anonymous"></script>
+        <script>
+            const profiles = document.querySelectorAll(".profiles-sm");
+            profiles.forEach(profile => {
+                let children = Array(...profile.children);
+                for (let i = 1; i < children.length; i++) {
+                    children[i].style.marginLeft = "-13px";
+                }
+            })
+            // const children = Array(...profiles.children);
+            // for (let i = 1; i < children.length; i++) {
+            //     children[i].style.marginLeft = "-13px"
+            // }
+        </script>
+    </body>
+</html>
