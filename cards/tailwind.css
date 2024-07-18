@@ -16,15 +16,14 @@
     position: relative;
   }
   .cards-section {
-    overflow-y: scroll;
+    overflow-y: auto;
     width: 100%;
   }
   .row {
     @apply bg-boz rounded-[10px] mb-[10px] p-[15px];
   }
   .column {
-    overflow-y: scroll;
-    height: 70vh;
+    overflow-y: auto;
   }
   .tag {
     display: inline-block;

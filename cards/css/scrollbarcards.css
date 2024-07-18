@@ -1,0 +1,15 @@
+.cards-section::-webkit-scrollbar{
+    width: 14px;
+    left: 300px;
+}
+.cards-section::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.cards-section::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.cards-section{
+    
+}
