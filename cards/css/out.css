@@ -656,10 +656,6 @@ video {
   height: 58px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-4\/5 {
   width: 80%;
 }
@@ -686,6 +682,10 @@ video {
 
 .w-px {
   width: 1px;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
 }
 
 .items-center {
@@ -798,6 +798,9 @@ video {
 
 body {
   margin: 0px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding: 0px;
